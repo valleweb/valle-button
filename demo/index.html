@@ -19,6 +19,8 @@
         .vertical-section-container {
           max-width: 500px;
         }
+
+        
       </style>
     </custom-style>
 
@@ -33,20 +35,20 @@
       <demo-snippet class="centered-demo">
         <template>
 
-          <valle-button></valle-button>
+          <valle-button>Botão</valle-button>
 
         </template>
       </demo-snippet>
 
-      <!-- With Prop - demo
+      <!-- Disabled - demo
       ========================= -->
 
-      <h2>With Prop</h2>
+      <h2>Disabled</h2>
 
       <demo-snippet class="centered-demo">
         <template>
 
-          <valle-button prop1="Human"></valle-button>
+          <valle-button disabled>Buttom</valle-button>
 
         </template>
       </demo-snippet>
@@ -61,11 +63,24 @@
 
         <style is="custom-style">
           .shiny {
-            --vsc-element-text-color: #a1f442;
+            --primary-color: #FF1493;
           }
         </style>
 
-          <valle-button class="shiny"></valle-button>
+          <valle-button class="shiny">Buttom</valle-button>
+
+        </template>
+      </demo-snippet>
+
+      <!-- Toogle - Pressed - demo
+      ========================= -->
+
+      <h2>Toogle - Pressed style</h2>
+
+      <demo-snippet class="centered-demo">
+        <template>
+
+          <valle-button toogle pressed>Buttom</valle-button>
 
         </template>
       </demo-snippet>
