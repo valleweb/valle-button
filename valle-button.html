@@ -87,6 +87,11 @@
         cursor: default;
       }
 
+      :host([pressed]) {
+        background-color: var(--background-color-pressed, #AB82FF);
+        color: var(--text-color-pressed, #fff);
+      }
+
     </style>
 
     <slot></slot>
