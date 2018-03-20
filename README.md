@@ -10,7 +10,7 @@
 1 - Install the element using [Bower](http://bower.io/):
 
 ```sh
-$ bower install valle-button --save
+$ bower install --save valle-button
 ```
 
 2 -  Import the element:
@@ -38,18 +38,22 @@ $ bower install valle-button --save
 
 ## Properties
 
-Property  | Type        | Default   | Description
-:---      |:---         |:---       |:---
-`prop1`   | *String*    | `World`   | Prop description
+Property      | Type          | Default   | Description
+:---          |:---           |:---       |:---
+`disabled`    | *Boolean*     | `false`   | Allow disabled state
+`toogle`      | *Boolean*     | `false`   | Allow toggle mode
+`pressed`     | *Boolean*     | `false`   | Set the pressed state (toggled)
 
 ## Styling
 
 The following custom properties and mixins are available for styling:
 
-Custom property                | Default  | Description
-:---                           |:---      |:---
---valle-element-text-color       | #f44277  | Text color
---valle-element-text             | {}       | Text styles
+Custom property             | Default  | Description
+:---                        |:---      |:---
+--primary-color             | #2196F3  | Background color
+--primary-text-color        | #fff     | Text color
+--background-color-pressed  | #AB82FF  | Background color pressed
+--text-color-pressed        | #fff     | Text color pressed
 
 
 ## Browser Support
