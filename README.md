@@ -48,10 +48,12 @@ Property      | Type          | Default   | Description
 
 The following custom properties and mixins are available for styling:
 
-Custom property        | Default  | Description
-:---                   |:---      |:---
---primary-color        | #2196F3  | Background color
---primary-text-color   | #fff     | Text color
+Custom property             | Default  | Description
+:---                        |:---      |:---
+--primary-color             | #2196F3  | Background color
+--primary-text-color        | #fff     | Text color
+--background-color-pressed  | #AB82FF  | Background color pressed
+--text-color-pressed        | #fff     | Text color pressed
 
 
 ## Browser Support
