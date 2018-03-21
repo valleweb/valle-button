@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
-    "valle-mixinButton": "^1.1.0"
+    "valle-mixinButton": "^1.1.1"
   },
   "devDependencies": {
     "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0",
