@@ -1,7 +1,7 @@
 {
   "name": "valle-button",
   "description": "Awesome valle button",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "polymer",
     "web-components",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
-    "valle-mixinButton": "^1.1.0"
+    "valle-mixinButton": "^1.1.1"
   },
   "devDependencies": {
     "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0",
