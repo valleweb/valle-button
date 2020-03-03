@@ -1,91 +1,67 @@
 <!doctype html>
-
 <html lang="en">
-
   <head>
-    <title>valle-button demo</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
-    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
-    <link rel="import" href="../valle-button.html">
-  </head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-  <body>
+    <title>valle-button demo</title>
+
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module">
+      import '@polymer/iron-demo-helpers/demo-pages-shared-styles';
+      import '@polymer/iron-demo-helpers/demo-snippet';
+    </script>
+
+    <script type="module" src="../valle-button.js"></script>
 
     <custom-style>
       <style is="custom-style" include="demo-pages-shared-styles">
-        .vertical-section-container {
-          max-width: 500px;
-        }
-
-        
       </style>
     </custom-style>
+  </head>
 
-    <main class="vertical-section-container centered">
-      <h1>valle-button demo</h1>
+  <body>
+    <div class="vertical-section-container centered">
+      <h1>All valle-button demo</h1>
 
-      <!-- Default - demo
-      ========================= -->
-
-      <h2>Default</h2>
-
-      <demo-snippet class="centered-demo">
+      <!-- Default -->
+      <h3>Default</h3>
+      <demo-snippet>
         <template>
-
-          <valle-button>Buttom</valle-button>
-
+          <valle-button>Button</valle-button>
         </template>
       </demo-snippet>
 
-      <!-- Disabled - demo
-      ========================= -->
-
-      <h2>Disabled</h2>
-
-      <demo-snippet class="centered-demo">
+      <!-- Disabled -->
+      <h3>Disabled</h3>
+      <demo-snippet>
         <template>
-
-          <valle-button disabled>Buttom</valle-button>
-
+          <valle-button disabled>Button</valle-button>
         </template>
       </demo-snippet>
 
-      <!-- Custom style - demo
-      ========================= -->
-
-      <h2>Custom style</h2>
-
-      <demo-snippet class="centered-demo">
+      <!-- Custom style -->
+      <h3>Custom style</h3>
+      <demo-snippet>
         <template>
-
-        <style is="custom-style">
-          .shiny {
-            --primary-color: #FF1493;
-          }
-        </style>
-
-          <valle-button class="shiny">Buttom</valle-button>
-
+          <style is="custom-style">
+            .shiny {
+              --primary-color: #FF1493;
+            }
+          </style>
+          <valle-button class="shiny">Button</valle-button>
         </template>
       </demo-snippet>
 
-      <!-- Toggle - Pressed - demo
-      ========================= -->
-
-      <h2>Toggle - style when pressed</h2>
-
-      <demo-snippet class="centered-demo">
+      <!-- Toggle - style when pressed -->
+      <h3>Toggle - style when pressed</h3>
+      <demo-snippet>
         <template>
-
-          <valle-button toggle>Buttom</valle-button>
-
+          <valle-button toggle>Button</valle-button>
         </template>
       </demo-snippet>
 
-    </main>
-
+    </div>
   </body>
 </html>
